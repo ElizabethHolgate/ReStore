@@ -33,7 +33,7 @@ namespace API.Data.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("PicureURL")
+                    b.Property<string>("PicureUrl")
                         .HasColumnType("TEXT");
 
                     b.Property<long>("Price")
